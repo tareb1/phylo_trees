@@ -1,0 +1,17 @@
+{"name": "","radius": 0,"terminology":"root","children": [
+    {"name": "","radius": 0,"terminology": "","children": [
+	    {"name": "","radius": 0,"terminology": "","children": [
+	    	{"name": "A","radius": 5,"terminology": "","children": []}
+      	]},
+   		{"name": "","radius": 0,"terminology": "","children": [
+     			{"name": "B","radius": 5,"terminology": "","children": []},
+	     		{"name": "C","radius": 5,"terminology": "","children": []}
+      	]}
+   	]},
+    {"name": "","radius": 0,"terminology": "","children": [
+	    {"name": "","radius": 0,"terminology": "","children": [
+	    	{"name": "D","radius": 5,"terminology": "","children": []},
+	    	{"name": "E","radius": 5,"terminology": "","children": []}
+        ]}
+    ]}
+]}

@@ -1,0 +1,45 @@
+{"name": "","answer":"Wrong","radius":0, "explain":"", "children": [
+    {
+        "name": "A","answer":"Wrong","radius":7,"explain":"Circle A is a common ancestor of humpback whales and goats, but it is a more ancient common ancestor than the other options. They have a more recent common ancestor. Try again.", "children": [
+            {"name":"B", "answer":"Wrong", "radius":7, "explain":"Circle B is a common ancestor of humpback whales and goats, but they have a more recent common ancestor. Try again.","children": [
+                    {"name": "C","answer":"Correct","radius":7,"explain":"Great job! Circle C is correct because it is the most recent common ancestor of both humpback whales and goats.","children": [
+                        {"name": "E", "answer":"Wrong","radius":7,"explain":"Circle E is wrong because it is a common ancestor of humpback whales and minke whales, but not goats.","children": [
+                            {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                                {"name": "Minke Whale", "answer":"Wrong","radius":0,"explain":"","children": []}
+                            ]},
+                            {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                                {"name": "Humpback Whale", "answer":"Wrong","radius":0,"explain":"","children": []}
+                            ]}
+                        ]},
+                        {"name": "D", "answer":"Wrong","radius":7,"explain":"Circle D is wrong because it is a common ancestor of goats, sheep, and cows, but not humpback whales.","children": [
+                            {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                                {"name": "Cow", "answer":"Wrong","radius":0,"explain":"","children": []}
+                            ]},
+                            {"name": "F", "answer":"Wrong","radius":7,"explain":"Circle F is wrong because it is a common ancestor of sheep and goats, but not humpback whales.","children": [
+                                {"name": "Sheep", "answer":"Wrong","radius":0,"explain":"","children": []},
+                                {"name": "Goat", "answer":"Wrong","radius":0,"explain":"","children": []}
+                            ]}
+                        ]}
+                    ]}, 
+                    {"name": "", "answer": "Wrong", "radius":0,"explain":"","children":[
+                        {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                            {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                                {"name": "Camel", "answer":"Wrong","radius":0,"explain":"","children": []}
+                            ]}
+                        ]}       
+                    ]}]
+            },
+            {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                    {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                        {"name": "", "answer":"Wrong","radius":0,"explain":"","children": [
+                            {"name": "Kangaroo", "answer":"Wrong","radius":0,"explain":"","children": []}
+                        ]}
+                    ]}
+                ]}
+            ]
+            }        
+        ]
+    }
+]}
+

@@ -1,0 +1,107 @@
+#vis2_description {
+	position: absolute;
+	width: 250px;
+	height: 220px;
+	right: 90px;
+	top: 120px;
+	text-align: left;
+	opacity: 0;
+}
+
+#vis2_bar {
+	width: 100%;
+	height: 15px;
+	background-color: #FDBC5E;
+}
+
+
+#vis2_description h4 {
+	text-align: center;
+	padding: 1rem 0 0.5rem 0;
+	border-right: 10px #fdd08e solid;
+	font-weight: bold;
+}
+
+#vis2_description p {
+	text-align: center;
+	border-right: 10px #fdd08e solid;
+	margin: 0;
+	padding: 0.5rem 1rem 1rem 1rem;
+	background-color: #efeff0;
+}
+
+
+.click_circle {
+	position: absolute;
+	cursor: pointer
+}
+
+
+#root, #node, #terminal, #character_1, #character_2, #sister {
+	border-radius: 15px;
+
+	background-color: orange;
+	/*z-index: -1;*/
+	opacity: 0;
+
+	position: absolute;
+	width: 60px;
+	height: 60px;
+
+}
+
+#sister {
+	bottom: 70px;
+	left: 183.5PX;
+	width: 70px;
+	height: 130px;
+}
+
+#root {
+	top: 40px;
+	left: 217.5px;
+
+}
+
+#node {
+	top: 130px;
+	left: 145px;
+}
+
+#terminal {
+	width: 40px;
+	bottom: 73px;
+	left: 315.5px;
+}
+
+#character_1, #character_2 {
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+
+}
+
+#character_1 {
+	top: 276px;
+	left: 292px;
+}
+
+#character_2 {
+	top: 165.5px;
+	left: 305px;
+}
+
+.chara {
+	position: absolute;
+	border: solid 1px black;
+	width: 20px;
+	height: 4px;
+	background-color: black;
+}
+
+.question {
+	position: absolute;
+	color: white;
+	top: 200px;
+	left: 10px;
+}

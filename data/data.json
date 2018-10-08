@@ -1,0 +1,300 @@
+
+{
+  "name": "",
+  "radius": 0,
+  "value": 1,
+  "parents": 0,
+  "children": [
+    { 
+     	"name": "",
+     	"radius": 0,
+     	"parents": 1,
+     	"value": 2,
+     	"children": [
+	    { 
+	     	"name": "",
+	     	"radius": 0,
+	     	"parents": 2,
+	     	"value": 4,
+	     	"children": [
+		    { 
+		     	"name": "",
+		     	"radius": 0,
+		     	"parents": 4,
+		     	"value": 7,
+		     	"children": [
+			    { 
+			     	"name": "",
+			     	"radius": 0,
+			     	"parents": 7,
+			     	"value": 12,
+			     	"children": [
+				    { 
+				     	"name": "",
+				     	"radius": 0,
+				     	"parents": 12,
+				     	"value": 18,
+				     	"children": [
+					    { 
+					     	"name": "Cow",
+					     	"id": 0,
+					     	"description": "Domestic cattle are hoofed mammals raised for milk, meat, and labor. People have been raising cattle for as long as 10,000 years, and from a single wild species (now extinct), and some mixing in from other species, they have developed hundreds of specialized breeds.",
+					     	"genes": 19890,
+					     	"gene_rad": 25,
+					     	"parents": 18,
+					     	"image": "cow.png",
+					     	"color": "red",
+					     	"value": 25,
+					     	"radius": 7
+					    },
+					    { 
+					    	"name": "Chimp",
+					    	"id": 1,
+					    	"description": "This African great ape lives in groups with complex social structures. Baby chimps stay close to their mothers for about five years. The mother provides milk, comfort, and protection, and she teaches them life skills like how to find food and use tools.",
+					    	"genes": 17899,
+					    	"gene_rad": 20,
+					    	"parents": 18,
+					    	"color": "red",
+					    	"image": "chimp.jpg",
+					    	"value": 26,
+					    	"radius": 7			    		
+					    }
+					  ]
+				    },
+				    { 
+				    	"name": "",
+				    	"radius": 0,
+				    	"value": 19,
+				    	"parents": 12,
+				    	"children": [
+					    { 
+					     	"name": "Turtle",
+					     	"id": 2,
+					     	"description": "Most turtles have hard, bony shells, but the shell of the Chinese softshell turtle is leathery and flexible. Because turtles have so many unusual features, including a protective shell, their relationship to other reptiles was debated for many years.",
+					     	"genes": 18604,
+					     	"gene_rad": 25,
+					     	"color": "red",
+					     	"parents": 19,
+					     	"image": "turtle.jpg",
+					     	"value": 27,
+					     	"radius": 7
+					    },
+					    { 
+					    	"name": "Chicken",
+					    	"id": 3,
+					    	"description" : "Like other birds, the chicken has a backbone and feathers, and it lays hard-shelled eggs. Domesticated chicken breeds come in many shapes, sizes, and colors. Different breeds have been specially bred for laying eggs, growing large muscles, or both.",
+					    	"genes": 15393,
+					    	"gene_rad": 20,
+					    	"parents": 19,
+					    	"color": "red",
+					    	"image": "chicken.png",
+					    	"value": 28,
+					    	"radius": 7		
+					    }
+				      ]
+				    }
+				  ]
+			    },
+			    { 
+			    	"name": "",
+			    	"radius": 0,
+			    	"parents": 7,
+			    	"value": 13,
+	    	    	"children": [
+				    { 
+				    	"name": "",
+				    	"radius": 0,
+				    	"parents": 13,
+				    	"value": 20,
+		    	    	"children": [
+					    { 
+					    	"name": "Frog",
+					    	"id": 4,
+					    	"parents": 20,
+					    	"description": "The western clawed frog is an amphibian. This group of vertebrate animals spends its early life in the water, using fins to swim and gills to breathe. During metamorphosis, it grows legs and lungs, allowing it to live comfortably on land.",
+					    	"genes": 18293,
+					    	"image": "frog.png",
+					    	"gene_rad": 25,
+					    	"color": "red",
+					    	"value": 29,
+					    	"radius": 7		    	
+					    }
+				      ]				    	
+				    }
+			      ]
+			    }
+			  ]
+		    },
+		    { 
+		    	"name": "",
+		    	"radius": 0,
+		    	"parents": 4,
+		    	"value": 8,
+    	    	"children": [
+			    { 
+			    	"name": "",
+			    	"radius": 0,
+			    	"parents": 8,
+			    	"value": 14,
+	    	    	"children": [
+				    { 
+				    	"name": "",
+				    	"radius": 0,
+				    	"parents": 14,
+				    	"value": 21,
+		    	    	"children": [
+					    { 
+					    	"name": "Fruitfly",
+					    	"id": 5,
+					    	"parents": 21,
+					    	"description": "One of many flies that live on fruit, D. mela-nogaster is a common household pest. A subject of genetics research since the early 1900s, this tiny fly has helped scientists understand volumes about how genes influence development, behavior, and other traits.",
+					    	"genes": 14506,
+					    	"gene_rad": 20,
+					    	"image": "fruitfly.png",
+					    	"color": "red",
+					    	"value": 30,
+					    	"radius": 7		    	
+					    }
+				      ]				    	
+				    }
+			      ]
+			    }
+		      ]
+		    }
+		  ]
+	    },
+	    { 
+	    	"name": "",
+	    	"radius": 0,
+	    	"value": 5,
+	    	"children": [
+		    { 
+		     	"name": "",
+		     	"radius": 0,
+		     	"parents": 5,
+		     	"value": 9,
+     	    	"children": [
+			    { 
+			    	"name": "",
+			    	"radius": 0,
+			    	"parents": 9,
+			    	"value": 15,
+	    	    	"children": [
+				    { 
+				    	"name": "",
+				    	"radius": 0,
+				    	"parents": 15,
+				    	"value": 22,
+		    	    	"children": [
+					    { 
+					    	"name": "Potato",
+					    	"id": 6,
+					    	"parents": 22,
+					    	"description": "This food plant was domesticated from its wild relative thousands of years ago in Mexico. It can reproduce using flowers, but new plants can also grow from the eyes of its underground, starchy tubers.",
+					    	"genes": 41796,
+					    	"gene_rad": 35,
+					    	"image": "potato.png",
+					    	"color": "green",
+					    	"value": 31,
+					    	"radius": 7		    	
+					    }
+				      ]
+				    }
+			      ]		    	
+			    }
+		      ]
+		    },
+		    { 
+		    	"name": "",
+		    	"radius": 0,
+		    	"parents": 5,
+		    	"value": 10,
+    	    	"children": [
+			    { 
+			    	"name": "",
+			    	"radius": 0,
+			    	"parents": 10,
+			    	"value": 16,
+	    	    	"children": [
+				    { 
+				    	"name": "",
+				    	"radius": 0,
+				    	"parents": 16,
+				    	"value": 23,
+		    	    	"children": [
+					    { 
+					    	"name": "Moss",
+					    	"id": 7,
+					    	"description": "This simple plant grows in mats on wet soil. Unlike larger, more-complex plants, it has no vasculature (internal tubes that carry nutrients and water), and it reproduces by forming spores, not flowers.",
+					    	"genes": 1782,
+					    	"gene_rad": 15,
+					    	"parents": 23,
+					    	"image": "moss.png",
+					    	"color": "green",
+					    	"value": 32,
+					    	"radius": 7								    	
+					    }
+				      ]					    	
+				    }
+			      ]		    	
+			    }
+		      ]	
+		    }
+		  ]	
+	    }
+	  ]
+    },
+    { 
+    	"name": "",
+    	"radius": 0,
+    	"parents": 1,
+    	"value": 3,
+    	"children": [
+	    { 
+	    	"name": "",
+	    	"radius": 0,
+	    	"parents": 3,
+	    	"value": 6,
+	    	"children": [
+		    { 
+		    	"name": "",
+		    	"radius": 0,
+		    	"parents": 6,
+		    	"value": 11,
+    	    	"children": [
+			    { 
+			    	"name": "",
+			    	"parents": 11,
+			    	"radius": 0,
+			    	"value": 17,
+	    	    	"children": [
+				    { 
+				    	"name": "",
+				    	"parents": 17,
+				    	"radius": 0,
+				    	"value": 24,
+		    	    	"children": [
+					    { 
+					    	"name": "M. Jannaschii",
+					    	"id": 8,
+					    	"parents": 24,
+					    	"description": "Like all archaea, M. Jannaschii is a microscopic, single-celled organism. This species lives miles under the surface of the ocean, near hydrothermal vents.",
+					    	"genes": 32775,
+					    	"gene_rad": 30,
+					    	"image": "m_jan.png",
+					    	"color": "purple",
+					    	"value": 33,
+					    	"radius": 7			    	
+					    }
+				      ]
+				    }
+			      ]	    	
+			    }
+		      ]	    	
+		    }
+	      ]
+	    }
+      ]
+    }
+  ]
+}

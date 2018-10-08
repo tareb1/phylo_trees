@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phylogenetic Tree</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://marketplace.canva.com/MACLwWd05CQ/1/thumbnail_large/canva-tree-icon-MACLwWd05CQ.png" />
+
+
+	<!-- import d3 -->
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+
+    <!-- import bootstrap -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+
+	<!-- import jquery -->
+ 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <!-- import css -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/vis2.css">
+    <link rel="stylesheet" type="text/css" href="./css/vis3.css">
+
+    <script src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/vis3.js"></script>
+    <script type="text/javascript" src="./js/vis2.js"></script>
+
+    <!-- font-fmaily -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div id="header_color">
+            <div id="header_info">
+                <h1 class="title">Phylogenetic Trees</h1>      
+                <h5>This explorable explanation teaches users how to read phylogenetic trees, a type of diagram common in biology classes.</h5>
+                <h6>By: Eric Ma, Rebecca Ta, and Saralyn Santos</h6>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="section_0" class="topics">
+        <div id="section0_info">
+            <h4>What is a Phylogenetic Tree?</h4>
+            <p>
+                A <strong>phylogenetic tree</strong> is a visual representation of the branching patterns of evolution. Through a phylogenetic tree, readers can trace the evolutionary relationships between various organisms.
+            </p>
+        </div>
+    </div>
+
+
+<!-- ############### A FANCY LINE TO SPLIT THE SECTIONS ###################### -->
+
+
+    <div id="section_1">
+        <div id="section1_bar"></div>
+        <h4>Interactive Tree Example</h4>
+        <div id="visualization_1">
+            <div class="species_description" id="sp_1">
+                <div id="sp1_bar"></div>
+
+                <div id="sp_1_info">
+                <!-- name -->    
+                    <h4></h4>
+
+                    <!-- genes  -->
+                    <h6></h6>
+
+                    <!-- description -->
+                    <p></p>
+                </div>
+            </div>
+            
+            <div class="species_description" id="sp_2">
+                <div id="sp2_bar"></div>
+
+                <div id="sp_2_info">
+                    <!-- name -->
+                    <h4></h4>
+
+                    <!-- genes  -->
+                    <h6></h6>
+
+                    <!-- description -->
+                    <p></p>
+                </div>
+            </div>
+
+            <div id="rg_left" class="related_genes">
+                <h5></h5>
+            </div>
+
+            <div id="rg_right" class="related_genes">
+                <h6>GENES IN COMMON</h6>
+            </div>
+
+            <div id="com_ances">
+                <div id="com_ances_bar"></div>
+                <h5><span></span> M</h5>
+                <h5>YEARS AGO</h5>
+            </div>
+
+            <div id="image_tooltip">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<!-- ############### A FANCY LINE TO SPLIT THE SECTIONS ###################### -->
+    
+    <div id="section_2" class="topics">
+        <div id="section2_bar"></div>
+        <h4>How to Read a Tree</h4>
+        <div id="visualization_2">
+            <div id="vis2_description">
+                <div id="vis2_bar"></div>
+                <h4></h4>
+                <p></p>
+            </div>
+
+
+            <div id="sister"></div>
+            <div id="node"></div>
+            <div id="root"></div>
+            <div id="terminal"></div>
+            <div id="character_1" class="character"></div>
+            <div id="character_2" class="character"></div>
+
+        </div>
+    </div>
+
+<!-- ############### A FANCY LINE TO SPLIT THE SECTIONS ###################### -->
+
+    <div id="section_3">
+        <div class="flex_cont">
+            <div id="section3_1" class="flex_child">
+                <div id="section3_1_bar"></div>
+                <h4>Understanding Evolutionary Relationships</h4>
+                <p>
+                    To understand evolutionary relationships, one important concept to understand is <strong>common ancestry</strong>. If two lineages have       common ancestry, it means that they descended from the same ancestral lineage and share some percentage of their genes. However, common ancestry does not mean that two lineages are exactly the same. For example, you and your cousins share common ancestry through your grandparents, but you probably don’t look exactly like them.
+                </p>
+            </div>
+            <div id="section3_2" class="flex_child">
+                <div id="section3_2_bar"></div> 
+                <img src="./img/evo_rel.png" />
+            </div>
+        </div>
+    </div>
+
+<!-- ############### A FANCY LINE TO SPLIT THE SECTIONS ###################### -->
+        
+    <div id="section_4">
+        <div id="section4_bar"></div>
+        <div id="section4_1">
+            <h4>More on Monophyletic Groups</h4>
+            <p>
+                A <strong>monophyletic group</strong> is a collection of organisms, including a common ancestor and all of its decendants. A monophyletic group can be a single branch of a tree or a collection of connected branches.
+            </p>
+        </div>
+
+        <div id="section4_2">
+            <div class="flex_cont">
+                <p id="section4_2_1">
+                    The image to the right represents a monophyletic group because it includes different species and their common ancestor. Every species in the group highlighted in green is related to each other in some way.
+                </p>
+                <img id="section4_2_2" src="./img/mpg.png">
+            </div>
+
+        </div>
+
+        <div id="section4_3">
+            <div class="flex_cont">
+                <img id="section4_3_1" src="./img/not_an_mpg.png">  
+                <p id="section4_3_2">
+                  The image to the left does not represent a monophyletic group because it excludes the common ancestor of all the species highlighted in orange. Although the species highlighted are all related to each other, you can't tell by looking at only the highlighted groups because their common ancestor is excluded.
+                </p>
+            </div>
+        </div>
+    </div>
+
+<!-- ############### A FANCY LINE TO SPLIT THE SECTIONS ###################### -->
+
+    <div id="section_5">
+        <div id="section5_bar"></div>
+        <div id="section5_1">
+            <h4>Relatedness</h4>
+            <p>
+                <strong>Relatedness</strong> refers to how closely two different species are connected by a common lineage. Two species are more closely related if they have a more recent common ancestor. To identify how closely related two species are, start at the branch tips that hold the two species of interest, then trace the branches of the tree backward until the two branches converge. This point of convergence represents the two species’ most recent common ancestor.
+            </p>
+        </div>
+        <div id="visualization_3">
+            <div id="chart">
+                <div class="species_description" id="sp_3_1">
+                    <div id="sp_3_1_bar"></div>
+                    <h4>Which of the six circles on the tree corresponds to the most recent ancestor of a <strong>Humpback Whale</strong> and a <strong>Goat</strong>? </h4>
+                    <!-- <p></p> -->
+                </div>
+                <div class="species_description" id="sp_3_2">
+                    <h4></h4>
+                    <p></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ############### A FANCY LINE TO SPLIT THE SECTIONS ###################### -->
+    <div id="section_6">
+        <div id="section6_bar"></div>
+        <div id="section6_1">
+            <div id="section6_1_1">
+                <h4>Tips on Reading Trees</h4>
+                <p>
+                    Phylogenetic trees can be presented in a lot of different ways. Although the format may look different, remember that it’s the branches that really matter. All of these trees communicate the same information!
+                </p>
+            </div>
+            <div id="section6_1_2">
+                <img src="./img/tree_formats.png" />
+            </div>
+        </div>
+        <div id="section6_2">
+            <div id="section6_2_1">
+                <p>
+                    Rotating a tree’s structure doesn’t change the relationship of species in the tree. Different trees may present the structure of the tree in different ways, but the relationships between species remain the same. In this tree, species 3 and 4 are the most closely related species in the tree, no matter how the branches of the tree are rotated. 
+                </p>
+            </div>
+            <div id="section6_2_2">
+                <img src="./img/rotate_tree.png" />
+            </div>
+        </div>
+        <div id="section6_3" class="flex_cont">
+            <div id="section6_3_1">
+                <p>
+                    Sometimes, when scientists don’t have enough information to determine the branching order, they end up with three or more species coming off the same branch point. These branch points are called <strong>polytomies.</strong> Later, if scientists learn some new information, they may be able to resolve these polytomies.
+                </p>
+            </div>
+            <img id="section6_3_2" src="./img/polytomy.png" />
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
+
+
