@@ -33,7 +33,8 @@ $(function() {
 
 
 
-    d3.json('../data/vis2_data.json', function(json) {
+    //d3.json('../data/vis2_data.json', function(json) {
+     d3.json("./data/vis2_data.json", function(json) {
 
     	var nodes = tree.nodes(json);
     	var links = tree.links(nodes);

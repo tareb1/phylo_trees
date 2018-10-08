@@ -49,7 +49,8 @@ $(document).ready(function() {
 
 
     // create timeline
-    d3.json('/data/data.json', function(error, data) {
+   // d3.json('/data/data.json', function(error, data) {
+    d3.json("./data/data.json", function(error, data) {
 
         var nodes = tree.nodes(data);     
         var links = tree.links(nodes);
